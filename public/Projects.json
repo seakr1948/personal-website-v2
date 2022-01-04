@@ -1,0 +1,41 @@
+[
+    {
+    "project": "MySpotifyInsights",
+    "image": "MySpotifyInsights.png",
+    "description":
+      "Senior project created with React that utilizes the spotify API to display the user data related to their music habits. Utilized React for the front end and Flask for the back end.",
+    "technologies": ["React", "CSS", "Flask"]
+  },
+  {
+    "project": "NFT Card Component",
+    "image": "NFT-Card-Component.png",
+    "description":
+      "This project is a simple component that displays an NFT card.",
+    "technologies": ["HTML", "CSS"]
+  },
+  {
+    "project": "Ecommerce Page",
+    "image": "Ecommerce-Page.png",
+    "description":
+      "In this project, I utilized React create the different components necessary for the website. I also utilized Bootstrap to style the site to familiarize myself with the CSS framework",
+    "technologies": ["React", "CSS"]
+  },
+  {
+    "project": "Tip Calculator App",
+    "description": "The tip calculator was created in React and ",
+    "technologies": ["React", "CSS", "Flask"]
+  },
+  {
+    "project": "Calculator App",
+    "image": "Calculator-App.png",
+    "description":
+      "This calculator app was created in React and is the first project I have that utilized SCSS. This was a great project to implement Sass since I utilized mixins in order to create different themes using mixins.",
+    "technologies": ["React", "SCSS"]
+  },
+  {
+    "project": "Time Tracking Dashboard",
+    "description":
+      "This simple React app let me familiarize myself with importing information using the included JSON file. It also familiarized me with media queries for different screen sizes.",
+    "technologies": ["HTML", "CSS", "React"]
+  }
+]
