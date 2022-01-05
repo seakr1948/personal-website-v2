@@ -9,8 +9,8 @@
             
             <img  class="card-img"  :src="require(`../assets/${image}`)">
             
-            <a href="">View Site</a>
-            <a href="">View Repo</a>
+            <a :href="`${site_url}`" target="_blank">View Site</a>
+            <a  :href="`${repo_url}`" target="_blank">View Repo</a>
 
             <div class="flex project-technologies"> 
                 <div v-for="(item, index) in technologies" :key="index">
@@ -34,7 +34,9 @@
             project: String,
             image: String,
             description: String,
-            technologies: Array
+            technologies: Array,
+            site_url: String,
+            repo_url: String
         },
         data() {
             return{

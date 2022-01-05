@@ -1,6 +1,9 @@
 <template>
-  <div id="app">
-    <Navbar msg='Navigation' />
+  <div id="app" >
+    
+    <div :class="`overlay ${sidenav_open ? 'overlay-active' : ''}`"></div>
+    <SideNav v-on:toggleState="changeState" :sidenav_open="sidenav_open" />
+    <Navbar  v-on:toggleState="changeState" :sidenav_open="sidenav_open"/>
     <WelcomeSection />
     <AboutMe />
     <Projects />
@@ -21,6 +24,7 @@ import Contact from './components/Contact.vue'
 
 import Navbar from './components/Navbar.vue'
 import Projects from './components/Projects.vue'
+import SideNav from './components/SideNav.vue'
 import Technologies from './components/Technologies.vue'
 import WelcomeSection from './components/WelcomeSection.vue'
 
@@ -34,7 +38,20 @@ export default {
     Projects,
     AboutMe,
     Technologies,
-    Contact
+    Contact,
+    SideNav
+  },
+
+  data() {
+    return{
+      sidenav_open: false
+    }
+  },
+
+  methods: {
+    changeState(val){
+      this.sidenav_open = val;
+    }
   }
 }
 </script>
