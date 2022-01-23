@@ -434,7 +434,7 @@ img{
         padding: 2em;
         z-index: -1;
         opacity: 0;
-        background: hsl(0 0% 0% / 0.8);
+        background: hsl(0 0% 0% / 0.9);
         transition: 0.5s ease;
         p{
             padding-top: 1em;
@@ -448,7 +448,7 @@ img{
             display: inline-block;
             vertical-align: middle;
             text-align: center;
-            font-size: 1.5em;
+            font-size: 2em;
             position: absolute;
             right: 3%;
             top: 3%;
@@ -462,7 +462,7 @@ img{
         }
         button:hover{
            
-                border: 3px solid #F79C57;
+                // border: 3px solid #F79C57;
                 color: #F79C57;
 
         }
