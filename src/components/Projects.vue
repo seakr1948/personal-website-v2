@@ -35,10 +35,19 @@ const projects = [
   },
   {
     project: "The Auto Logger",
-    image: "Time-Tracking-Dashboard.png",
+    image: "the-auto-logger.png",
     description:
       "Developed an app that allows a user to log the fuel efficiency of their vehicles and useful statistics over the tracked fuel logs.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["React", "Express", "BootStrap"],
+    site_url: "https://the-auto-logger.herokuapp.com/",
+    repo_url: "https://github.com/seakr1948/the-auto-logger"
+  },
+  {
+    project: "YelpCamp",
+    image: "yelpcamp.png",
+    description:
+      "Designed an app that works similarly to Yelp, but utlilzes campgrounds instead of restaurants",
+    technologies: ["Express", "EJS", "BootStrap"],
     site_url: "https://the-auto-logger.herokuapp.com/",
     repo_url: "https://github.com/seakr1948/the-auto-logger"
   },
