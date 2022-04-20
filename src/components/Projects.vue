@@ -25,32 +25,6 @@ const projects = [
     repo_url: "https://github.com/magacula/my-spotify-insights"
   },
   {
-    project: "NFT Card Component",
-    image: "NFT-Card-Component.png",
-    description:
-      "This project is a simple component that displays an NFT card. Used simple HTML and CSS",
-    technologies: ["HTML", "CSS"],
-    site_url: "https://fn-nft-card-component.netlify.app/",
-    repo_url: "https://github.com/seakr1948/NFT-preview-card"
-  },
-  {
-    project: "Ecommerce Page",
-    image: "Ecommerce-Page.png",
-    description:
-      "In this project, I utilized React create the different components necessary for the website. I also utilized Bootstrap to style the site to familiarize myself with the CSS framework",
-    technologies: ["React", "CSS"],
-    site_url: "https://fn-ecommerce-site.netlify.app/",
-    repo_url: "https://github.com/seakr1948/ecommerce-product-page"
-  },
-  {
-    project: "Tip Calculator App",
-    image: "Tip-Calculator-App.png",
-    description: "The tip calculator was created in React and ",
-    technologies: ["React", "CSS", "Flask"],
-    site_url: "https://fn-tip-calculator.netlify.app/",
-    repo_url: "https://github.com/seakr1948/tip-calculator-app"
-  },
-  {
     project: "Calculator App",
     image: "Calculator-App.png",
     description:
@@ -60,13 +34,13 @@ const projects = [
     repo_url: "https://github.com/seakr1948/calculator-app"
   },
   {
-    project: "Time Tracking Dashboard",
+    project: "The Auto Logger",
     image: "Time-Tracking-Dashboard.png",
     description:
-      "This simple React app let me familiarize myself with importing information using the included JSON file. It also familiarized me with media queries for different screen sizes.",
+      "Developed an app that allows a user to log the fuel efficiency of their vehicles and useful statistics over the tracked fuel logs.",
     technologies: ["HTML", "CSS", "React"],
-    site_url: "https://fn-time-tracking-dashboard.netlify.app/",
-    repo_url: "https://github.com/seakr1948/time-tracking-dashboard"
+    site_url: "https://the-auto-logger.herokuapp.com/",
+    repo_url: "https://github.com/seakr1948/the-auto-logger"
   },
 ];
 export default {
