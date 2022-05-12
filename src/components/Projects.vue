@@ -48,8 +48,8 @@ const projects = [
     description:
       "Designed an app that works similarly to Yelp, but utlilzes campgrounds instead of restaurants",
     technologies: ["Express", "EJS", "BootStrap"],
-    site_url: "https://the-auto-logger.herokuapp.com/",
-    repo_url: "https://github.com/seakr1948/the-auto-logger"
+    site_url: "https://rocky-castle-04339.herokuapp.com/",
+    repo_url: "https://github.com/seakr1948/YelpCamp"
   },
 ];
 export default {
